@@ -1,4 +1,4 @@
-@ECHO OFF
+REM @ECHO OFF
 REM (C) 2015 see Authors.txt
 REM
 REM This file is part of MPC-HC.

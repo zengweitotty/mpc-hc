@@ -1,4 +1,4 @@
-@ECHO OFF
+rem @ECHO OFF
 REM (C) 2013-2016 see Authors.txt
 REM
 REM This file is part of MPC-HC.
@@ -53,7 +53,7 @@ FOR %%G IN (%ARG%) DO (
   IF /I "%%G" == "Debug"    SET "RELEASETYPE=Debug"   & SET /A ARGBC+=1
   IF /I "%%G" == "Release"  SET "RELEASETYPE=Release" & SET /A ARGBC+=1
   IF /I "%%G" == "VS2015"   SET "COMPILER=VS2015"     & SET /A ARGCOMP+=1
-  IF /I "%%G" == "Silent"   SET "SILENT=True"         & SET /A VALID+=1
+  IF /I "%%G" == "Silent"   SET "SILENT=False"         & SET /A VALID+=1
   IF /I "%%G" == "Nocolors" SET "NOCOLORS=True"       & SET /A VALID+=1
 )
 

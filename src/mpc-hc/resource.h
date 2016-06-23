@@ -354,6 +354,7 @@
 #define IDC_SLI_BRIGHTNESS              11025
 #define IDC_SLI_HUE                     11026
 #define IDC_SLI_SATURATION              11027
+#define IDC_SLI_EXPLOSURE               11028
 #define IDC_RADIO1                      11040
 #define IDC_RADIO2                      11041
 #define IDC_RADIO3                      11042
@@ -1574,7 +1575,7 @@
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        20018
+#define _APS_NEXT_RESOURCE_VALUE        20019
 #define _APS_NEXT_COMMAND_VALUE         33452
 #define _APS_NEXT_CONTROL_VALUE         22086
 #define _APS_NEXT_SYMED_VALUE           24044

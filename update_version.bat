@@ -1,4 +1,4 @@
-@ECHO OFF
+REM @ECHO OFF
 REM (C) 2010-2013, 2015 see Authors.txt
 REM
 REM This file is part of MPC-HC.
@@ -27,11 +27,13 @@ IF EXIST "build.user.bat" CALL "build.user.bat"
 
 IF NOT DEFINED MPCHC_GIT IF DEFINED GIT (SET MPCHC_GIT=%GIT%)
 SET "PATH=%MPCHC_GIT%\cmd;%PATH%"
-
+echo 0
 CALL "%COMMON%" :SubSetPath
 IF %ERRORLEVEL% NEQ 0 GOTO MissingVar
+echo 1
 CALL "%COMMON%" :SubDoesExist bash.exe
 IF %ERRORLEVEL% NEQ 0 GOTO MissingVar
+echo 2
 
 bash.exe ./version.sh %*
 

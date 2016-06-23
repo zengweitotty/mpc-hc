@@ -66,6 +66,7 @@ public:
     CSliderCtrl m_SliBrightness;
     CSliderCtrl m_SliHue;
     CSliderCtrl m_SliSaturation;
+
     CButton m_ExportKeys;
     afx_msg void OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar);
     afx_msg void OnBnClickedReset();

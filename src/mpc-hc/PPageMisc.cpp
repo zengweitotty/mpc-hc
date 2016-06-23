@@ -83,6 +83,7 @@ BEGIN_MESSAGE_MAP(CPPageMisc, CPPageBase)
     ON_UPDATE_COMMAND_UI(IDC_SPIN1, OnUpdateDelayEditBox)
     ON_UPDATE_COMMAND_UI(IDC_STATIC5, OnUpdateDelayEditBox)
     ON_UPDATE_COMMAND_UI(IDC_STATIC6, OnUpdateDelayEditBox)
+
 END_MESSAGE_MAP()
 
 
@@ -120,6 +121,7 @@ BOOL CPPageMisc::OnInitDialog()
     m_SliSaturation.SetRange(-100, 100, true);
     m_SliSaturation.SetTic(0);
     m_SliSaturation.SetPos(m_iSaturation);
+
 
     if (AfxGetMyApp()->IsIniValid()) {
         m_ExportKeys.EnableWindow(FALSE);

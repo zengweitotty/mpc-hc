@@ -182,7 +182,7 @@ FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
     ICON            "",IDR_MAINFRAME,14,10,48,48
     LTEXT           "",IDC_STATIC1,60,8,200,8
-    CONTROL         "Copyright © 2002-2016 see Authors.txt",IDC_AUTHORS_LINK,
+    CONTROL         "Copyright ?2002-2016 see Weiz.txt",IDC_AUTHORS_LINK,
                     "SysLink",WS_TABSTOP,60,20,200,8
     CONTROL         "",IDC_HOMEPAGE_LINK,"SysLink",WS_TABSTOP,60,32,200,8
     LTEXT           "This program is freeware and released under the GNU General Public License.",IDC_STATIC,7,46,246,18
@@ -668,7 +668,7 @@ BEGIN
     LTEXT           "Spacing",IDC_STATIC,10,51,56,8
     EDITTEXT        IDC_EDIT3,70,49,35,13,ES_RIGHT | ES_AUTOHSCROLL
     CONTROL         "",IDC_SPIN3,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,93,49,12,13
-    LTEXT           "Angle (z,°)",IDC_STATIC,10,68,56,8
+    LTEXT           "Angle (z,?",IDC_STATIC,10,68,56,8
     EDITTEXT        IDC_EDIT4,70,66,35,13,ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
     CONTROL         "",IDC_SPIN10,"msctls_updown32",UDS_WRAP | UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,93,66,12,13
     LTEXT           "Scale (x,%)",IDC_STATIC,10,85,56,8
@@ -872,7 +872,7 @@ IDD_PPAGEMISC DIALOGEX 0, 0, 296, 241
 STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
-    GROUPBOX        "Color controls (for VMR-9, EVR and madVR)",IDC_STATIC,5,5,286,96
+    GROUPBOX        "Color controls (for VMR-9, EVR and madVR)",IDC_STATIC,5,5,286,115
     LTEXT           "Brightness",IDC_STATIC,10,19,55,8
     LTEXT           "Contrast",IDC_STATIC,10,35,55,8
     LTEXT           "Hue",IDC_STATIC,10,51,55,8
@@ -885,17 +885,19 @@ BEGIN
     CONTROL         "",IDC_SLI_CONTRAST,"msctls_trackbar32",WS_DISABLED | WS_TABSTOP | 0x400,99,33,187,14
     CONTROL         "",IDC_SLI_HUE,"msctls_trackbar32",WS_DISABLED | WS_TABSTOP | 0x400,99,49,187,14
     CONTROL         "",IDC_SLI_SATURATION,"msctls_trackbar32",WS_DISABLED | WS_TABSTOP | 0x400,99,65,187,14
-    PUSHBUTTON      "Reset",IDC_RESET,231,80,50,14
-    GROUPBOX        "Update check",IDC_STATIC,5,106,286,40
-    CONTROL         "Enable automatic update check",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,118,250,8
-    LTEXT           "Check every:",IDC_STATIC5,10,131,110,8
-    EDITTEXT        IDC_EDIT1,120,129,30,13,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
-    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,150,129,13,14
-    LTEXT           "day(s)",IDC_STATIC6,155,131,50,8
-    GROUPBOX        "Settings management",IDC_STATIC,5,151,286,28
-    PUSHBUTTON      "Reset",IDC_RESET_SETTINGS,10,161,86,14
-    PUSHBUTTON      "Export",IDC_EXPORT_SETTINGS,200,161,86,14
-    PUSHBUTTON      "Export keys",IDC_EXPORT_KEYS,105,161,86,14
+    PUSHBUTTON      "Reset",IDC_RESET,229,94,50,14
+    GROUPBOX        "Update check",IDC_STATIC,10,121,286,40
+    CONTROL         "Enable automatic update check",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,133,250,8
+    LTEXT           "Check every:",IDC_STATIC5,15,146,110,8
+    EDITTEXT        IDC_EDIT1,125,144,30,13,ES_CENTER | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,155,144,11,14
+    LTEXT           "day(s)",IDC_STATIC6,160,146,50,8
+    GROUPBOX        "Settings management",IDC_STATIC,10,163,286,28
+    PUSHBUTTON      "Reset",IDC_RESET_SETTINGS,15,174,86,14
+    PUSHBUTTON      "Export",IDC_EXPORT_SETTINGS,205,174,86,14
+    PUSHBUTTON      "Export keys",IDC_EXPORT_KEYS,110,174,86,14
+    LTEXT           "exposure",IDC_STATIC,10,82,31,8
+    CONTROL         "",IDC_SLI_EXPLOSURE,"msctls_trackbar32",WS_DISABLED | WS_TABSTOP,99,79,187,14
 END
 
 IDD_TUNER_SCAN DIALOGEX 0, 0, 407, 246
@@ -2237,6 +2239,17 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_PPAGEMISC AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
 // String Table
 //
 
@@ -3513,7 +3526,7 @@ BEGIN
     IDS_AFTERPLAYBACK_DONOTHING "After Playback: Do nothing"
     IDS_OSD_BRIGHTNESS      "Brightness: %s"
     IDS_OSD_CONTRAST        "Contrast: %s"
-    IDS_OSD_HUE             "Hue: %s°"
+    IDS_OSD_HUE             "Hue: %s"
     IDS_OSD_SATURATION      "Saturation: %s"
     IDS_OSD_RESET_COLOR     "Color settings restored"
     IDS_OSD_NO_COLORCONTROL "Color control is not supported"
@@ -3663,7 +3676,8 @@ BEGIN
     IDS_CMD_HELP            "/help /h /?\tShow help about command line switches"
     IDS_PPAGEADVANCED_SCORE "Threshold value for subtitles score which are going to be automatically downloaded. Higher values means that more accurately matched subtitles will be loaded, lower values could result in incorrect subtitles being loaded, but there is no one perfect value. Pick one that works best for you."
     IDS_PPAGE_FS_CLN_AUDIO_DELAY "Audio Delay (ms)"
-    IDS_PPAGEADVANCED_DEFAULTTOOLBARSIZE "Size in pixels of the default toolbar."
+    IDS_PPAGEADVANCED_DEFAULTTOOLBARSIZE 
+                            "Size in pixels of the default toolbar."
 END
 
 #endif    // English (United States) resources
