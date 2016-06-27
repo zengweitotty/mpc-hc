@@ -2,6 +2,7 @@
 // Microsoft Visual C++ generated include file.
 // Used by mpc-hc.rc
 //
+#define IDOK2                           3
 #define IDR_MAINFRAME                   128
 #define IDR_POPUP                       130
 #define IDR_POPUPMAIN                   133
@@ -351,6 +352,7 @@
 #define IDC_SLIDER2                     11021
 #define IDC_SLIDER3                     11022
 #define IDC_SLIDER4                     11023
+#define IDC_SLIDER5                     11024
 #define IDC_SLI_BRIGHTNESS              11025
 #define IDC_SLI_HUE                     11026
 #define IDC_SLI_SATURATION              11027
@@ -365,8 +367,18 @@
 #define IDC_RADIO9                      11048
 #define IDC_RADIO10                     11049
 #define IDC_RADIO11                     11050
+#define IDC_RADIO12                     11051
+#define IDC_RADIO13                     11052
+#define IDC_RADIO14                     11053
+#define IDC_RADIO15                     11054
+#define IDC_RADIO16                     11055
+#define IDC_RADIO17                     11056
+#define IDC_RADIO18                     11058
+#define IDC_RADIO19                     11059
 #define IDC_EDIT1                       11060
+#define IDC_RADIO20                     11060
 #define IDC_EDIT3                       11061
+#define IDC_RADIO21                     11061
 #define IDC_EDIT2                       11062
 #define IDC_EDIT4                       11063
 #define IDC_EDIT5                       11064
@@ -433,6 +445,8 @@
 #define IDC_STATIC9                     11268
 #define IDC_STATIC10                    11269
 #define IDC_STATIC_BALANCE              11270
+#define IDC_STATIC11                    11270
+#define IDC_STATIC12                    11271
 #define IDC_DVDPATH                     12000
 #define IDC_SUBRESYNCLIST               12001
 #define IDC_PLAYLIST                    12002

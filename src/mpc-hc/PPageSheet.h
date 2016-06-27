@@ -44,6 +44,7 @@
 #include "PPageCapture.h"
 #include "PPageShaders.h"
 #include "PPageAdvanced.h"
+#include "PPageExtension.h"
 #include "TreePropSheet/TreePropSheet.h"
 #include "DpiHelper.h"
 
@@ -102,6 +103,7 @@ private:
     CPPageSubMisc m_subMisc;
     CPPageTweaks m_tweaks;
     CPPageMisc m_misc;
+	CPPageExtension m_extu;
     CPPageAdvanced m_advance;
 
     EventClient m_eventc;

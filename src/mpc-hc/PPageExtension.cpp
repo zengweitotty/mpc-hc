@@ -28,6 +28,16 @@ void CPPageExtension::DoDataExchange(CDataExchange* pDX)
 	__super::DoDataExchange(pDX);
 }
 
+BOOL CPPageExtension::OnInitDialog()
+{
+	__super::OnInitDialog();
+
+	const CAppSettings& s = AfxGetAppSettings();
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+				  // EXCEPTION: OCX Property Pages should return FALSE
+}
+
 BEGIN_MESSAGE_MAP(CPPageExtension, CPPageBase)
 	//ON_WM_HSCROLL()
 	//ON_BN_CLICKED(IDC_RESET, OnBnClickedReset)
