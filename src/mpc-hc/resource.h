@@ -2,7 +2,6 @@
 // Microsoft Visual C++ generated include file.
 // Used by mpc-hc.rc
 //
-#define IDOK2                           3
 #define IDR_MAINFRAME                   128
 #define IDR_POPUP                       130
 #define IDR_POPUPMAIN                   133
@@ -367,12 +366,11 @@
 #define IDC_RADIO9                      11048
 #define IDC_RADIO10                     11049
 #define IDC_RADIO11                     11050
-#define IDC_RADIO12                     11051
-#define IDC_RADIO13                     11052
 #define IDC_RADIO14                     11053
 #define IDC_RADIO15                     11054
 #define IDC_RADIO16                     11055
 #define IDC_RADIO17                     11056
+#define IDC_RADIO22                     11057
 #define IDC_RADIO18                     11058
 #define IDC_RADIO19                     11059
 #define IDC_EDIT1                       11060
@@ -380,9 +378,12 @@
 #define IDC_EDIT3                       11061
 #define IDC_RADIO21                     11061
 #define IDC_EDIT2                       11062
+#define IDC_RADIO23                     11062
 #define IDC_EDIT4                       11063
 #define IDC_EDIT5                       11064
+#define IDC_RADIO24                     11064
 #define IDC_EDIT6                       11065
+#define IDC_RADIO25                     11065
 #define IDC_EDIT7                       11066
 #define IDC_EDIT8                       11067
 #define IDC_EDIT9                       11068
@@ -445,8 +446,8 @@
 #define IDC_STATIC9                     11268
 #define IDC_STATIC10                    11269
 #define IDC_STATIC_BALANCE              11270
-#define IDC_STATIC11                    11270
-#define IDC_STATIC12                    11271
+#define IDC_STATIC13                    11273
+#define IDC_STATIC14                    11274
 #define IDC_DVDPATH                     12000
 #define IDC_SUBRESYNCLIST               12001
 #define IDC_PLAYLIST                    12002
@@ -679,6 +680,7 @@
 #define IDC_ASSOCIATE_VIDEO_FORMATS     22083
 #define IDC_ASSOCIATE_AUDIO_FORMATS     22084
 #define IDC_CLEAR_ALL_ASSOCIATIONS      22085
+#define IDC_CUSTOM1                     22088
 #define ID_SUB_DELAY_DOWN               24000
 #define ID_SUB_DELAY_UP                 24001
 #define IDS_MPLAYERC_104                24002
@@ -1589,9 +1591,9 @@
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        20021
+#define _APS_NEXT_RESOURCE_VALUE        20023
 #define _APS_NEXT_COMMAND_VALUE         33452
-#define _APS_NEXT_CONTROL_VALUE         22086
+#define _APS_NEXT_CONTROL_VALUE         22089
 #define _APS_NEXT_SYMED_VALUE           24044
 #endif
 #endif
