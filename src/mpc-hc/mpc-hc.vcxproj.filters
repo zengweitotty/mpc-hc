@@ -467,6 +467,9 @@
     <ClCompile Include="ImageGrayer.cpp">
       <Filter>Helpers</Filter>
     </ClCompile>
+    <ClCompile Include="PPageExtension.cpp">
+      <Filter>Property Dialogs\Player Options\Pages</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppSettings.h">
@@ -872,6 +875,9 @@
     </ClInclude>
     <ClInclude Include="ImageGrayer.h">
       <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="PPageExtension.h">
+      <Filter>Property Dialogs\Player Options\Pages</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

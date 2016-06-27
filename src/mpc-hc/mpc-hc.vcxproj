@@ -197,6 +197,7 @@
     <ClCompile Include="PPageBase.cpp" />
     <ClCompile Include="PPageCapture.cpp" />
     <ClCompile Include="PPageDVD.cpp" />
+    <ClCompile Include="PPageExtension.cpp" />
     <ClCompile Include="PPageExternalFilters.cpp" />
     <ClCompile Include="PPageFileInfoClip.cpp" />
     <ClCompile Include="PPageFileInfoDetails.cpp" />
@@ -340,6 +341,7 @@
     <ClInclude Include="PPageBase.h" />
     <ClInclude Include="PPageCapture.h" />
     <ClInclude Include="PPageDVD.h" />
+    <ClInclude Include="PPageExtension.h" />
     <ClInclude Include="PPageExternalFilters.h" />
     <ClInclude Include="PPageFileInfoClip.h" />
     <ClInclude Include="PPageFileInfoDetails.h" />
