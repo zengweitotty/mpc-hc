@@ -1,6 +1,5 @@
 #pragma once
 
-#include <afxcmn.h>
 #include "PPageBase.h"
 
 // CPPageExtension dialog

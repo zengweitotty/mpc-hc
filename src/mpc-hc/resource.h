@@ -353,7 +353,9 @@
 #define IDC_SLIDER4                     11023
 #define IDC_SLIDER5                     11024
 #define IDC_SLI_BRIGHTNESS              11025
+#define IDC_SLIDER6                     11025
 #define IDC_SLI_HUE                     11026
+#define IDC_SLIDER7                     11026
 #define IDC_SLI_SATURATION              11027
 #define IDC_RADIO1                      11040
 #define IDC_RADIO2                      11041
@@ -366,6 +368,7 @@
 #define IDC_RADIO9                      11048
 #define IDC_RADIO10                     11049
 #define IDC_RADIO11                     11050
+#define IDC_RADIO12                     11051
 #define IDC_RADIO14                     11053
 #define IDC_RADIO15                     11054
 #define IDC_RADIO16                     11055
@@ -380,11 +383,13 @@
 #define IDC_EDIT2                       11062
 #define IDC_RADIO23                     11062
 #define IDC_EDIT4                       11063
+#define IDC_RADIO26                     11063
 #define IDC_EDIT5                       11064
 #define IDC_RADIO24                     11064
 #define IDC_EDIT6                       11065
 #define IDC_RADIO25                     11065
 #define IDC_EDIT7                       11066
+#define IDC_RADIO27                     11066
 #define IDC_EDIT8                       11067
 #define IDC_EDIT9                       11068
 #define IDC_EDIT10                      11069
@@ -448,6 +453,7 @@
 #define IDC_STATIC_BALANCE              11270
 #define IDC_STATIC13                    11273
 #define IDC_STATIC14                    11274
+#define IDC_STATIC15                    11275
 #define IDC_DVDPATH                     12000
 #define IDC_SUBRESYNCLIST               12001
 #define IDC_PLAYLIST                    12002
@@ -681,6 +687,7 @@
 #define IDC_ASSOCIATE_AUDIO_FORMATS     22084
 #define IDC_CLEAR_ALL_ASSOCIATIONS      22085
 #define IDC_CUSTOM1                     22088
+#define IDC_MFCEDITBROWSE1              22089
 #define ID_SUB_DELAY_DOWN               24000
 #define ID_SUB_DELAY_UP                 24001
 #define IDS_MPLAYERC_104                24002
@@ -1591,9 +1598,9 @@
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        20023
+#define _APS_NEXT_RESOURCE_VALUE        20024
 #define _APS_NEXT_COMMAND_VALUE         33452
-#define _APS_NEXT_CONTROL_VALUE         22089
+#define _APS_NEXT_CONTROL_VALUE         22090
 #define _APS_NEXT_SYMED_VALUE           24044
 #endif
 #endif
