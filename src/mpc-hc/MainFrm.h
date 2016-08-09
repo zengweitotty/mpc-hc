@@ -163,7 +163,7 @@ public:
         AUTOFIT_TIMEOUT
     };
     OneTimeTimerPool<TimerOneTimeSubscriber> m_timerOneTime;
-
+	CComPtr<IBaseFilter> m_pVidCap, m_pAudCap;
 private:
     EventClient m_eventc;
     void EventCallback(MpcEvent ev);
@@ -231,7 +231,7 @@ private:
 
     CComPtr<ICaptureGraphBuilder2> m_pCGB;
     CStringW m_VidDispName, m_AudDispName;
-    CComPtr<IBaseFilter> m_pVidCap, m_pAudCap;
+
     CComPtr<IAMVideoCompression> m_pAMVCCap, m_pAMVCPrev;
     CComPtr<IAMStreamConfig> m_pAMVSCCap, m_pAMVSCPrev, m_pAMASC;
     CComPtr<IAMCrossbar> m_pAMXBar;

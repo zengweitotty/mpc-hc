@@ -32,7 +32,6 @@
 #include "RenderersSettings.h"
 #include "SettingsDefines.h"
 #include "Shaders.h"
-
 #include <afxadv.h>
 #include <afxsock.h>
 

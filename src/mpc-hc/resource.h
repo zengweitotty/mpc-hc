@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
-// Microsoft Visual C++ generated include file.
-// Used by mpc-hc.rc
+// Microsoft Visual C++ ????????
+// ? mpc-hc.rc ??
 //
 #define IDR_MAINFRAME                   128
 #define IDR_POPUP                       130
@@ -357,6 +357,7 @@
 #define IDC_SLI_HUE                     11026
 #define IDC_SLIDER7                     11026
 #define IDC_SLI_SATURATION              11027
+#define IDC_SLIDER8                     11027
 #define IDC_RADIO1                      11040
 #define IDC_RADIO2                      11041
 #define IDC_RADIO3                      11042
@@ -391,6 +392,7 @@
 #define IDC_EDIT7                       11066
 #define IDC_RADIO27                     11066
 #define IDC_EDIT8                       11067
+#define IDC_RADIO28                     11067
 #define IDC_EDIT9                       11068
 #define IDC_EDIT10                      11069
 #define IDC_WINHOTKEY1                  11070
@@ -454,6 +456,7 @@
 #define IDC_STATIC13                    11273
 #define IDC_STATIC14                    11274
 #define IDC_STATIC15                    11275
+#define IDC_STATIC16                    11276
 #define IDC_DVDPATH                     12000
 #define IDC_SUBRESYNCLIST               12001
 #define IDC_PLAYLIST                    12002
@@ -688,6 +691,12 @@
 #define IDC_CLEAR_ALL_ASSOCIATIONS      22085
 #define IDC_CUSTOM1                     22088
 #define IDC_MFCEDITBROWSE1              22089
+#define IDC_RADIO8001                   22090
+#define IDC_RADIO8002                   22091
+#define IDC_RADIO8003                   22092
+#define IDC_STATIC8001                  22093
+#define IDC_SLIDER8001                  22094
+#define IDC_STATIC8002                  22095
 #define ID_SUB_DELAY_DOWN               24000
 #define ID_SUB_DELAY_UP                 24001
 #define IDS_MPLAYERC_104                24002
@@ -1600,7 +1609,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        20024
 #define _APS_NEXT_COMMAND_VALUE         33452
-#define _APS_NEXT_CONTROL_VALUE         22090
+#define _APS_NEXT_CONTROL_VALUE         22096
 #define _APS_NEXT_SYMED_VALUE           24044
 #endif
 #endif
